@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Tammudu 2', sans-serif;
+}
+
+h1,
+h2,
+h6 {
+  color: rgb(114, 114, 114);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba($color: rgb(58, 58, 58), $alpha: 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+.App {
+  transition: all 0.5s ease;
+}
+.library-active {
+  margin-left: 30%;
+}
+
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
